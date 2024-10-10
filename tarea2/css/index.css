@@ -1,0 +1,35 @@
+.titulo1 {
+    font-weight: bolder;
+    color: #d2d4d7;
+    text-shadow: 
+        1px 1px 0px black, 
+        -1px -1px 0px black,
+        -1px 1px 0px black,
+        1px -1px 0px black;
+}
+
+.container-fluid {
+    background-image: url(../img/fondo1.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    width: auto;
+}
+
+.btn {
+    margin-top: 50px;
+    border: inset #005a36 2px; 
+    color: #ffffff; /* Letra más oscura */
+    width: 300px; /* Ajusta el ancho del botón */
+    height: 80px; /* Ajusta la altura del botón */
+    font-size: 30px; /* Tamaño de letra a 50px */
+    font-weight: bolder;
+}
+
+
+.full-screen {
+    height: 100vh; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
